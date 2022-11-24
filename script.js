@@ -2,7 +2,7 @@ const inputList = document.querySelector("#inputlist")
 const inputModel = document.querySelector("#inputmodel")
 const addGuestButton = document.querySelector("#addguest")
 const delAllGuestButton = document.querySelector("#delallguest")
-const delGuestButton = document.querySelector("#delguest")
+const delGuestButton = document.querySelector(".delguest")
 
 // Ajoute un invité à chaque clic
 
@@ -20,8 +20,10 @@ delAllGuestButton.addEventListener("click", () => {
 })
 
 
-// Supprime l'invité
+// Supprime l'invité choisi
 
-// delGuestButton.addEventListener("click", () => {
-//     inputModel.parentNode.removeChild(inputModel);
-// })
+inputList.addEventListener("click", event => {
+    if (event.target.classList.contains("delguest")) {
+        event.target.parentElement.remove()
+    }
+})
