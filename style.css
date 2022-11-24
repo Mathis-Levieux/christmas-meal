@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@400;700&display=swap');
+
+body {
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Mountains of Christmas', cursive;
+
+}
+main {
+    display: flex;
+}
+
+.guestlist {
+    border: 1px solid red;
+    padding: 0 5rem 1rem 5rem;
+    border-radius: 1rem;
+}
+
+.text-center {
+    text-align: center;
+}
+
+input {
+    width: 12rem;
+    margin-right: 1rem;
+    height: 1.5rem;
+}
+
+.margin-left {
+    margin-left: 15%;
+}
+
+.h2bar {
+    
+    display: flex;
+    align-items: center;
+}
+
+button {
+    height: 2rem;
+    margin-right: 1rem;
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+#addguest {
+    background-color: rgb(7, 210, 37);
+}
+
+#delallguest {
+    background-color: rgba(255, 0, 0, 0.749);
+}
+
+#delguest {
+    height: auto;
+    margin: 0;
+    border: none;
+}
+#confirm {
+    background-color: rgb(36, 202, 211);
+    margin: 1rem 44% 0 44%;
+}
+
+h2 {
+    margin-right: 1rem;
+}
+
+#inputmodel {
+    display: flex;
+    align-items: center;
+}
