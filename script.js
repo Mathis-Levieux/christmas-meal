@@ -7,7 +7,7 @@ const inputFirstName = document.getElementById("firstname")
 const inputLastName = document.getElementById("lastname")
 const inputModelTest = `<div id="inputmodel"><input placeholder="Nom" type="text" id="lastname" name="name">
     <input placeholder="Prénom" type="text" id="firstname" name="name">
-    <img id="delguest" class="delguest" src="/icons8-signe-moins-18.png"></div>`
+    <img id="delguest" class="delguest" src="icons8-signe-moins-18.png"></div>`
 inputList.innerHTML = inputModelTest
 
 // Ajoute un invité à chaque clic
@@ -42,7 +42,7 @@ AddGuestListButton.addEventListener("click", () => {
     let i = 0
     const fullNameArray = []
     while (i < firstNameArray.length) {
-        fullNameArray.push(`${lastNameArray[i]}  ${firstNameArray[i]}`)
+        fullNameArray.push(`${lastNameArray[i]} ${firstNameArray[i]}`)
         i++
     }
     console.log(fullNameArray)
